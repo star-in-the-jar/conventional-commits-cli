@@ -16,7 +16,7 @@
         { "value": "config", "name": "name", "description": "description" }
     ],
     "gimojis": {
-        "path": "/c/Users/Lenovo/.gitmoji/gimojis.json"
+        "path": "C:\\Users\\Lenovo\\.gitmoji\\gitmojis.json"
     },
     "favorites": {
         "gitmojii": ["sparkles", "bug"]
