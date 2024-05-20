@@ -1,0 +1,24 @@
+{
+    "type": [
+        { "value": "feat", "name": "name", "description": "description", "complementary": ":sparkles:" },
+        { "value": "fix", "name": "name", "description": "description", "complementary": ":bug:" },
+        { "value": "docs", "name": "name", "description": "description", "complementary": ":books:" },
+        { "value": "style", "name": "name", "description": "description", "complementary": ":art:" },
+        { "value": "refactor", "name": "name", "description": "description", "complementary": ":recycle:" },
+        { "value": "perf", "name": "name", "description": "description", "complementary": ":zap:" },
+        { "value": "test", "name": "name", "description": "description", "complementary": ":rotating_light:" },
+        { "value": "chore", "name": "name", "description": "description", "complementary": ":wrench:" },
+        { "value": "revert", "name": "name", "description": "description", "complementary": ":rewind:"}
+    ],
+    "scope": [
+        { "value": "backend", "name": "name", "description": "description" },
+        { "value": "frontend", "name": "name", "description": "description" },
+        { "value": "config", "name": "name", "description": "description" }
+    ],
+    "gimojis": {
+        "path": "/c/Users/Lenovo/.gitmoji/gimojis.json"
+    },
+    "favorites": {
+        "gitmojii": ["sparkles", "bug"]
+    }
+}

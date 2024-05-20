@@ -1,7 +1,7 @@
 {
   "name": "conventional-commits-cli",
   "version": "1.0.0",
-  "description": "There's this awesome extension for VSC. I prefer to use CLI so I made something similar for my needs. Feel free to use or develop what's here.",
+  "description": "There's this awesome extension for VSC. I prefer to use CLI so I made something similar for my needs. Feel free to use or develop what's here. Inspired by https://github.com/vivaxy/vscode-conventional-commits.",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
@@ -27,9 +27,12 @@
   },
   "homepage": "https://github.com/stun-is-law/conventional-commits-cli#readme",
   "devDependencies": {
-    "@types/node": "^20.12.12",
     "ts-node": "^10.9.2",
-    "ts-node-dev": "^2.0.0",
-    "typescript": "^5.4.5"
+    "ts-node-dev": "^2.0.0"
+  },
+  "compilerOptions": {
+    "module": "es2020",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
   }
 }
